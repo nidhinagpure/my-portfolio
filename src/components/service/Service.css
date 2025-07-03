@@ -1,3 +1,44 @@
-h1{
-    color: white;
+.service-container{
+    margin-top: 50px;
+    height: 350px;
+    width: 350px;
+        background-image: linear-gradient(45deg, #3f0028,#582300);
+
+    color: wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
 }
+.service-container img{
+    display: flex;
+    margin: 0 auto;
+    height: 70px;
+    width: 70px;
+}
+.service-container h2{
+    font-size: 28px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 4px;
+
+}
+.service-container p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:16px;
+    word-spacing: 1px;
+    line-height: 1.4rem;
+    padding-bottom: 10%;
+
+}
+.service-mapping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8%;
+    gap: 50px;
+}
+

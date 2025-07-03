@@ -1,3 +1,40 @@
-h1{
+.skill-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.skill-container:hover{
+    transform: scale(1.1);
+}
+
+.skill-box img {
+    display: flex;
+    margin: 10px auto;
+    height: 120px;
+    width: 120px;
+}
+
+.skill-box p {
+    font-size: 20px;
+    letter-spacing: 1px;
     color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.skill-box {
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 2px 30px 2px 30px;
+   border: 1px rgb(137, 13, 127) solid;
+}
+.skill-mapping {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16%;
+    gap: 22px;
+    max-width: 1200px;
+    margin-bottom: 24px;
 }

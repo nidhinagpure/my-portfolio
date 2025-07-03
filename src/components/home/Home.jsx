@@ -1,5 +1,7 @@
 import './../home/Home.css';
 
+import { Skill } from './../../components/skill/skill';
+import { Service } from './../../components/service/Service';
 import Navbar from './../navbar/Navbar';
 import Heading from './../headingname/Heading';
 import Profileimg from './../../assets/Profile-img.jpg';
@@ -9,7 +11,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div className='line-hr'></div>
-      <Heading />
+      <Heading heading ="About Me"/>
 
       <div className='home-container'>
 
@@ -28,6 +30,13 @@ const Home = () => {
             <a href="/resume.pdf" download className="btn-outline">My Resume</a>
           </div>
         </div>
+      </div>
+
+      <div>
+        <Skill />
+      </div>
+      <div>
+        <Service />
       </div>
 
     </div>

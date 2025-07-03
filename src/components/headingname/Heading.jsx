@@ -1,13 +1,12 @@
 
 import './../../components/headingname/Heading.css';
-import Underline from '../../assets/Underline.svg';
 
 const Heading = (props) => {
-   const {image, heading} = props;
+   const { heading } = props;
   return (
     <div>
         <div className='heading-container'>
-          <h1>About Me</h1>
+          <h1>{heading}</h1>
         </div>
        <div className='heading-line'></div>
     </div>

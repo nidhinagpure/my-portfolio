@@ -1,11 +1,16 @@
-import './../project/Projects.css';
+import './../project/Project.css';
+
+import 
 
 const Project = () => {
   return (
     <div>
-      <h1 className='h1'>Project nidhi</h1>
+      <div>
+       
+      </div>
+      
     </div>
   );
 };
 
-export default Project; // ✅ Correct default export
+export default Project;
