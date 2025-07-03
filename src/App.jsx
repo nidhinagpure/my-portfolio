@@ -6,8 +6,8 @@ import About from './components/about/About';
 import Skill from './components/skill/Skill';
 import Service from './components/service/Service';
 import Project from './components/project/Project';
-import Education from './components/education/Education';
-import Contact  from './components/contact/Contact';
+import Education from './components/education/Education'
+import Contact from './components/contact/Contact';
 
 
 const App = () => {

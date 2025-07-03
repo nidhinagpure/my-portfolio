@@ -1,9 +1,14 @@
 import './../home/Home.css';
 
+import Navbar from './../navbar/Navbar';
+import Heading from './../headingname/Heading';
+
 const Home = () => {
   return (
     <div>
-      <h1>hHello nidhi</h1>
+      <Navbar />
+       <div className='line-hr'></div>
+
     </div>
   )
 }
