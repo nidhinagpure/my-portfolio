@@ -2,6 +2,7 @@ import './../home/Home.css';
 
 import { Skill } from './../../components/skill/skill';
 import { Service } from './../../components/service/Service';
+import { Project } from './../../components/project/Project';
 import Navbar from './../navbar/Navbar';
 import Heading from './../headingname/Heading';
 import Profileimg from './../../assets/Profile-img.jpg';
@@ -37,6 +38,9 @@ const Home = () => {
       </div>
       <div>
         <Service />
+      </div>
+      <div>
+        <Project />
       </div>
 
     </div>
