@@ -1,0 +1,29 @@
+.heading-container {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: black;
+}
+.heading-container h1 {
+    font-size: 55px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    transition: 0.5s;
+    background: linear-gradient(267deg, #DA7C25 0.40%, #B923E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.heading-container h1:hover {
+    transform: scale(1.1);
+}
+.heading-line {
+    background-color:rgb(153, 150, 150);
+    height: 0.1px;
+    width: 20%;
+    display: flex;
+    margin: 6px 0 0 40%;
+}
