@@ -1,3 +1,26 @@
-h1{
-    color: white;
+.project-container{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.project-container img {
+    object-fit: cover;
+      height: 200px;
+      width: 300px;
+}
+
+.project-info{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    opacity: 0;
+    background-color: rgb(212, 53, 53);
+    color: black;
+    
 }

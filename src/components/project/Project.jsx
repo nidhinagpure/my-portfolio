@@ -13,7 +13,7 @@ import PhoneBook from './../../assets/project/Phone-Book.png';
 import ProductCard from './../../assets/project/Product-Card.png';
 
 
-const Project = [
+const PROJECT = [
   {
     projectImg: WinnerCard,
     githubImg: Github,
@@ -75,16 +75,17 @@ function Projectcard(props) {
   const { projectImg, githubImg, vercelImg, githubUrl, vercelUrl, projectInfo } = props;
   return (
     <>
-      <div>
+      <div className='project-container'>
         <img src={projectImg} />
-        <p>{projectInfo}</p>
+        <p className='project-info'>{projectInfo}</p>
+        <Link to={githubUrl} target='blank_'>
+          <span><img src={githubImg} /></span>
+        </Link>
+        <Link to={vercelUrl} target='blank_'>
+          <span><img src={vercelImg} /></span>
+        </Link>
       </div>
-      <Link to={githubUrl} target='blank_'>
-        <span><img src={githubImg} /></span>
-      </Link>
-      <Link to={vercelUrl} target='blank_'>
-        <span><img src={vercelImg} /></span>
-      </Link>
+
     </>
 
   );
@@ -95,7 +96,7 @@ export function Project() {
     <div>
       <Heading heading="Latests Work" />
       <div>
-        {Project.map((card, i) => {
+        {PROJECT.map((card, i) => {
           return (
             <Projectcard key={i}
               projectImg={card.projectImg}
