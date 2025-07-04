@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 
 import Email from './../../assets/footer/email.png';
-import PhoneIcon from './../../assets/footer/Phone-call.png'; // ✅ renamed
+import PhoneIcon from './../../assets/footer/phone-call.png';
 import Location from './../../assets/project/Location.png';
 import Linkdin from './../../assets/footer/Linkdin.png';
 
