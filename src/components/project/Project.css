@@ -3,14 +3,13 @@
     width: 300px;
     margin-top: 54px;
     position: relative;
-    border: 2px solid white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
-    border: 2px rgb(238, 91, 218) solid;
     cursor: pointer;
+    
 }
 
 .project-container img {

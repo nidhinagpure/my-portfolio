@@ -5,8 +5,8 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import { Skill } from './components/skill/skill';
 import { Service } from './components/service/Service';
-import { Project }from './components/project/Project';
-import Education from './components/education/Education'
+import { Project } from './components/project/Project';
+import { Education } from './components/education/Education';
 import Contact from './components/contact/Contact';
 
 

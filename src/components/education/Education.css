@@ -1,3 +1,63 @@
-h1{
+.education-container{
+    height:  300px;
+    width: 320px;
+    margin-top: 60px;
     color: white;
+    text-align: center;
+    border: 0.1px rgb(209, 25, 151) solid;
+    transition: 0.5s;
+}
+.education-container:hover{
+    transform: scale(1.1);
+}
+.education-container h2 {
+    padding-top: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+}
+.education-container h3{
+    font-size: 25px;
+    margin-top: 16px;
+    letter-spacing: 1px;
+    text-decoration: underline white;
+    color: white;
+    padding: 2px 4px 2px 4px;
+}
+.education-container p{
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 14px;
+}
+.education-container img{
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    padding: 2px 2px 2px 2px; 
+    
+}
+.eduction-loction{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 12px;
+    align-items: center;
+    text-align: center;
+}
+.eduction-loction span{
+    font-size: 20px;
+    gap: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+.education-mapping{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 70px;
 }
