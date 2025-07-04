@@ -2,7 +2,7 @@
 import './../about/About.css';
 
 import Heading from './../headingname/Heading';
-import Profileimg from './../../assets/Profile-img.jpg';
+import Profileimg from './../../assets/nidhiii.jpg';
 
 const About = () => {
   return (
