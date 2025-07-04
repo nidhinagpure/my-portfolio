@@ -1,5 +1,5 @@
 .project-container {
-    height: 200px;
+    height: 180px;
     width: 300px;
     margin-top: 54px;
     position: relative;
@@ -9,11 +9,9 @@
     text-align: center;
     align-items: center;
     cursor: pointer;
-
 }
-
 .project-container img {
-    height: 200px;
+    height: 180px;
     width: 300px;
 }
 
@@ -62,7 +60,7 @@
 .link-container span{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -73,10 +71,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 6px;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 0px;
     justify-content: center;
     justify-content: space-evenly;
 }

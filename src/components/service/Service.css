@@ -1,7 +1,4 @@
-.service{
-    padding-top: 80px;
-  margin-top: -80px;
-}
+
 .service-container {
     margin-top: 50px;
     height: 350px;
@@ -26,7 +23,6 @@
     font-size: 28px;
     letter-spacing: 1px;
     word-spacing: 1px;
-    margin-top: 4px;
 
 }
 
@@ -46,6 +42,5 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 8%;
     gap: 50px;
 }

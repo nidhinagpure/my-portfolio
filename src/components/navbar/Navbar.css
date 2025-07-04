@@ -9,11 +9,17 @@
     right: 0;
     display: flex;
     cursor: pointer;
-  z-index: 999;
+    z-index: 999;
 }
 .anchor-link{
+    transition: 0.5s;
     text-decoration: none;
     color: white;
+}
+.anchor-link:hover{
+    color: grey;
+    transform: scale(1.1);
+
 }
 .navbar-container ul {
     margin-left: 13%;
@@ -41,5 +47,8 @@
 }
 .talk-btn:hover{
     transform: scale(1.1);
+}
+.navbar-container ul:hover{
+    color: gray;
 }
 

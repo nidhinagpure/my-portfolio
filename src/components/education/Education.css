@@ -7,6 +7,9 @@
     border: 0.1px rgb(209, 25, 151) solid;
     transition: 0.5s;
 }
+.education{
+    padding-top: 6%;
+}
 .education-container:hover{
     transform: scale(1.1);
 }
@@ -58,6 +61,6 @@
 .education-mapping{
     display: flex;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-top: 10px;
     gap: 70px;
 }

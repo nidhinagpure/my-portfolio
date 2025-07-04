@@ -59,8 +59,8 @@ export function Education(){
   return (
     <>
     <div id="education">
-    <div>
-         <Heading heading="My Journey"/>
+    <div className='education'>
+       <Heading heading="My Journey"/>
     </div>
     <div className='education-mapping'>
       {EDUCATION.map((card,i)=>{
