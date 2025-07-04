@@ -2,7 +2,7 @@ import './../project/Project.css';
 import Heading from './../../components/headingname/Heading';
 import React, { useState } from 'react';
 
-import Github from './../../assets/footer/Github.png';
+import Github from './../../assets/footer/github.png';
 import Vercel from './../../assets/footer/Vercel.png';
 
 import WinnerCard from './../../assets/project/Winner-Card.png';
