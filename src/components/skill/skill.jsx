@@ -61,7 +61,8 @@ function Skillcards(props) {
 
 export function Skill() {
   return (
-    <>
+    <> 
+    <div id="skill">
         <Heading heading="My Skills" />
       <div className='skill-mapping'>
         {SKILLS.map((card, i) => {
@@ -72,6 +73,7 @@ export function Skill() {
           )
         })
         }
+      </div>
       </div>
       </>
   );

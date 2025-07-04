@@ -41,7 +41,7 @@ function Servicecard(props) {
 
 export function Service(){
   return (
-    <div>
+    <div id="service">
       <Heading heading="My service" />
       <div className='service-mapping'>
         {SERVICES.map((card, i) => {

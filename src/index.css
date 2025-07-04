@@ -1,6 +1,9 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+
   
 }
 
@@ -8,4 +11,7 @@ body{
   overflow-x: hidden;
   background-color: black;
   color: wheat;
+  scroll-padding-top: 80px;
+      scroll-behavior: smooth;
+
 }

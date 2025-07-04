@@ -153,7 +153,7 @@ function Projectcard(props) {
 
 export function Project() {
   return (
-    <div>
+    <div id="project">
       <Heading heading="My Work" />
       <div className='Project-mapping'>
         {PROJECT.map((card, i) => {

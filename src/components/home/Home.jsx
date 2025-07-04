@@ -13,7 +13,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className='line-hr'></div>
+    <div className='line-hr'></div>
+    <div id="home">
       <div>
         <About />
       </div>
@@ -36,7 +37,7 @@ const Home = () => {
       <div>
         <Footer />
       </div>
-
+       </div>
     </div>
   )
 }

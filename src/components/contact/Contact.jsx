@@ -80,7 +80,7 @@ function ContactDeatils() {
 export function Contact() {
   return (
     <>
-      <div>
+      <div id='contact'>
         <ContactDeatils />
       </div>
     </>

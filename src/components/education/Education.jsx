@@ -58,6 +58,7 @@ function Educationcard(props){
 export function Education(){
   return (
     <>
+    <div id="education">
     <div>
          <Heading heading="My Journey"/>
     </div>
@@ -76,7 +77,7 @@ export function Education(){
       } 
 
     </div>
-    
+    </div>
     
     </>
   )

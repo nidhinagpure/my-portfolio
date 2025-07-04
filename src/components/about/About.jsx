@@ -6,7 +6,7 @@ import Profileimg from './../../assets/Profile-img.jpg';
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <Heading heading ="About Me"/>
 
       <div className='home-container'>
