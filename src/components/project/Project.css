@@ -9,7 +9,7 @@
     text-align: center;
     align-items: center;
     cursor: pointer;
-    
+
 }
 
 .project-container img {
@@ -51,7 +51,8 @@
     margin: 10px 50px;
 }
 .link-container img{
-    background-color: rgb(164, 155, 155);
+    background-color: white;
+    border-radius: 6px;
     padding: 2px 2px 2px 2px;
     height: 25px;
     width: 25px;

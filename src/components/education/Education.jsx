@@ -23,7 +23,7 @@ const EDUCATION = [
     iconloc: Location,
   },
   {
-    filed: "HSC (Higher Secondary Certificate)",
+    filed: "HSC(Completed Senior Secondary Education)",
     dgreeName:"XII",
     nameOfCollege: "Saraswat Junior College of Science & Commerce",
     percentage:"72.31%",

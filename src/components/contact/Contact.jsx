@@ -1,5 +1,7 @@
 import './../contact/Contact.css';
 import Heading from './../../components/headingname/Heading';
+import React, { useState } from 'react';
+
 
 import Email from './../../assets/footer/email.png';
 import PhoneIcon from './../../assets/footer/Phone-call.png'; // ✅ renamed
@@ -7,9 +9,33 @@ import Location from './../../assets/project/Location.png';
 import Linkdin from './../../assets/footer/Linkdin.png';
 
 function ContactDeatils() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "003b71fa-e00b-41d4-a257-a2fe662bcb5e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Submitted Successfully !!😊");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <>
-           <Heading heading="Get In Touch"/>
+      <Heading heading="Reach Out"/>
 
       <div className='conatct-content'>
         <div className='contact-detail'>
@@ -30,19 +56,19 @@ function ContactDeatils() {
         </div>
 
         <div>
-          <form class="contact-form">
+          <form onSubmit={onSubmit} className="contact-form">
             
-              <label for="name">Your Name</label>
-              <input type="text" id="name" placeholder="Enter your name" required />
+              <label htmlFor="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
            
              
-              <label for="email">Your Email</label>
-              <input type="email" id="email" placeholder="Enter your email" required />
+              <label htmlFor="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required />
             
-              <label for="message">Write your message here</label>
-              <textarea id="message" placeholder="Enter your message" rows="10" required></textarea>
-              <button className='submit-btn'>Let's Go</button>
-
+              <label htmlFor="message">Write your message here</label>
+              <textarea id="message" name="message" placeholder="Enter your message" rows="10" required></textarea>
+              <button type='submit' className='submit-btn'>Let's Go</button>
+              <span className='result'>{result}</span>
           </form>
         </div>
 

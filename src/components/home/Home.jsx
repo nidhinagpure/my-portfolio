@@ -5,6 +5,7 @@ import { Service } from './../../components/service/Service';
 import { Project } from './../../components/project/Project';
 import { Education } from './../../components/education/Education';
 import { Contact } from './../../components/contact/Contact';
+import Footer from './../../components/footer/Footer';
 
 import Navbar from './../navbar/Navbar';
 import Heading from './../headingname/Heading';
@@ -50,6 +51,9 @@ const Home = () => {
       </div>
       <div>
         <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
 
     </div>
