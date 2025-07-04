@@ -9,8 +9,8 @@ const Footer = () => {
     <div class="footer-left">
       <h1 class="logo">Nid<span class="x-dot">hi</span><span class="dot">.</span></h1>
       <p>
-        I am a frontend developer from, USA with 10 years of<br />
-        experience in companies like Microsoft, Tesla and Apple.
+        Looking to apply my skills in a real-world<br/>
+         job environment Focused on learning, growing.
       </p>
     </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
   <hr class="footer-line" />
 
   <div class="footer-bottom">
-    <p>© 2023 Alex Bennett. All rights reserved.</p>
+    <p>© 2025 Nidhi Nagpure. All rights reserved.</p>
     <div class="footer-links">
       <a href="#">Term of Services</a>
       <a href="#">Privacy Policy</a>
