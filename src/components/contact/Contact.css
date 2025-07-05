@@ -64,6 +64,9 @@
 .contact-form input,
 .contact-form textarea {
     background-color: #23232d;
+        font-family: Arial, sans-serif;
+        letter-spacing: 1px;
+
     border: none;
     border-radius: 6px;
     padding: 14px 16px;
