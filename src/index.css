@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+
+  
+}
+
+body{
+  overflow-x: hidden;
+  background-color: black;
+  color: wheat;
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+
+}
+[id]::before {
+  content: '';
+  display: block;
+  height: 2px; /* Equal to the height of your navbar */
+  margin-top: -2px;
+  visibility: hidden;
+}

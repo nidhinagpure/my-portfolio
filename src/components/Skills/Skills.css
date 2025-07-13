@@ -1,0 +1,86 @@
+.skill-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.skill-box {
+  padding: 2px 30px;
+  border: 1px rgb(137, 13, 127) solid;
+}
+
+.skill-box img {
+  display: flex;
+  margin: 10px auto;
+  height: 120px;
+  width: 120px;
+}
+
+.skill-box p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.skill-mapping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  max-width: 1200px;
+  margin: 0 auto 24px auto;
+}
+
+/* ✅ Small Devices */
+@media screen and (max-width: 600px) {
+  .skill-box {
+    width: 60%;
+    margin: 6px;
+    margin-left: 25px;
+    padding: 35px;
+  }
+
+  .skill-box img {
+    height: 65px;
+    width: 65px;
+  }
+
+  .skill-box p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/* ✅ Tablets */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .skill-box {
+    width: 30%;
+    padding: 15px;
+  }
+
+  .skill-box img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .skill-box p {
+    font-size: 16px;
+  }
+}
+
+/* ✅ Medium Desktops */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .skill-box {
+    padding: 20px 30px;
+  }
+
+  .skill-box img {
+    height: 110px;
+    width: 110px;
+  }
+}
