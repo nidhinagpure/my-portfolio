@@ -6,74 +6,59 @@ import Github from './../../assets/footer/github.png';
 import Vercel from './../../assets/footer/Vercel.png';
 
 import WinnerCard from './../../assets/project/Winner-Card.png';
-import Tictactoe from './../../assets/project/Tic-Tac-Toe.png';
-import DiceRoller from './../../assets/project/Dice-Roller.png';
 import Togglebulb from './../../assets/project/Toggle-Bulb.png';
-import PhoneBook from './../../assets/project/Phone-Book.png';
-import ProductCard from './../../assets/project/Product-Card.png';
+import student from './../../assets/project/student.png';
+import troonflix from './../../assets/project/troonflix.png';
+import todoapp from './../../assets/project/todoapp.png';
+import healthcare from './../../assets/project/healthcare.png';
 
 
 const PROJECT = [
   {
-    codein: "In React",
+    projectImg: troonflix,
+    githubImg: Github,
+    vercelImg: Vercel,
+    githubUrl: "https://github.com/nidhinagpure/troon-flix",
+    vercelUrl: "https://troon-flix-client.onrender.com/",
+  },
+  {
+    projectImg: healthcare,
+    githubImg: Github,
+    vercelImg: Vercel,
+    githubUrl: "https://github.com/nidhinagpure/healthcare",
+    vercelUrl: "https://healthcare-zq77.onrender.com/",
+  },
+  {
     projectImg: WinnerCard,
     githubImg: Github,
     vercelImg: Vercel,
     githubUrl: "https://github.com/nidhinagpure/winner-score",
     vercelUrl: "https://score-winner.vercel.app/",
-    projectInfo: "Frontend development is about building the visible part of a website or web app — the part users interact with directly in their browserthe part users interact with directly in their browser."
   },
+  
   {
-    codein: "In React",
-    projectImg: Tictactoe,
+    projectImg: student,
     githubImg: Github,
     vercelImg: Vercel,
-    githubUrl: "https://github.com/nidhinagpure/Tic-Tac-Toe-Game",
-    vercelUrl: "https://tic-tac-toe-game-ten-sand.vercel.app/",
-    projectInfo: "Frontend development is about building the visible part of a website or web app — the part users interact with directly in their browserthe part users interact with directly in their browser."
-
+    githubUrl: "https://github.com/nidhinagpure/students-client",
+    vercelUrl: "https://students-client-9rho.onrender.com/",
   },
-
   {
-    codein: "In Iavascript",
-    projectImg: DiceRoller,
+    projectImg: todoapp,
     githubImg: Github,
     vercelImg: Vercel,
-    githubUrl: "https://github.com/nidhinagpure/diabox",
-    vercelUrl: "https://dice-roller-liart.vercel.app/",
-    projectInfo: "Frontend development is about building the visible part of a website or web app — the part users interact with directly in their browserthe part users interact with directly in their browser."
-
+    githubUrl: "https://github.com/nidhinagpure/to-do-app",
+    vercelUrl: "https://to-do-app-phi-roan.vercel.app/",
   },
 
   {
-    codein: "In Iavascript",
     projectImg: Togglebulb,
     githubImg: Github,
     vercelImg: Vercel,
     githubUrl: "https://github.com/nidhinagpure/bulb",
     vercelUrl: "https://bulb-toggler-7b6q.vercel.app/",
-    projectInfo: "Frontend development is about building the visible part of a website or web app — the part users interact with directly in their browserthe part users interact with directly in their browser."
-
-  },
-  {
-    codein: "In Iavascript",
-    projectImg: PhoneBook,
-    githubImg: Github,
-    vercelImg: Vercel,
-    githubUrl: "https://github.com/nidhinagpure/ContactBookHere",
-    vercelUrl: "https://add-remove-content.vercel.app/",
-    projectInfo: "Frontend development is about building the visible part of a website or web app — the part users interact with directly in their browserthe part users interact with directly in their browser."
-
-  },
-  {
-    codein: "In Iavascript",
-    projectImg: ProductCard,
-    githubImg: Github,
-    vercelImg: Vercel,
-    githubUrl: "https://github.com/nidhinagpure/products",
-    vercelUrl: "https://products-omega-liart.vercel.app/",
-    projectInfo: "Frontend development is about building the visible part of a website or web app — the part users interact with directly in their browserthe part users interact with directly in their browser."
-  },
+  }
+  
 ];
 
 
